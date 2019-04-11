@@ -1,0 +1,39 @@
+// some useful git commands
+
+git init
+git add -A 
+git commit -m "whatever"
+git rm -r [file-name.txt]
+git add remote origin <url>
+git push -u origin master
+
+
+
+git branch <branchName>
+git branch -d [branch name]...//for deleting a branch
+git push origin --delete [branchName] // for deleting a remote branch
+git checkout -b [branch name] origin/[branch name] // clone a remote branch a switch to it
+git checkout -- [file-name.txt] // discard changes to a file
+
+git checkout <branch>
+git pull <branch>
+git merge <branch> // merge a branch with the active branch
+git merge [source branch] [target branch] // merge a branch into target branch
+git stash // stash changes in a dirty working directory
+git stash clear // remove all stashes entries.
+
+git push origin [branch name] // push a branch to your remote repository
+git push origin --delete [branch name] // delete a remote branch
+git pull origin [branch name] // pull changes from a remote branch
+
+git log --summary // view changes in detail
+git diff [source branch] [target branch] // preview changes before merging
+
+git diff
+git log
+git reflog
+git clean -df 
+git reset --hard <commitHashId>
+git reset --hard HEAD // delete all unstage and uncommited work
+git reset --soft
+git checkout <commit>

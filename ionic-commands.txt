@@ -1,0 +1,9 @@
+ionic serve
+ionic serve -l
+ionic cordova run android
+ionic cordova build android
+ionic cordova emulate android
+ionic g page somepage
+ionic g provider someService
+
+ionic cordova run android --aot --minifyjs --minifycss --release 
